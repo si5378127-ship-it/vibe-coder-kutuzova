@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vibe Coder — сайты, интерфейсы и digital-проекты</title>
+<meta name="description" content="Я делаю сайты, интерфейсы и digital-проекты, которые выглядят как вайб, а работают как система. Лендинги, портфолио, промо-страницы, AI-first продукты.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;700;900&family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="scroll-bar" aria-hidden="true"><span></span></div>
+
+<header class="topbar">
+  <a class="brand" href="#top">
+    <span class="brand__dot" aria-hidden="true"></span>
+    vibe<span class="brand__thin">coder</span>
+  </a>
+  <nav class="topnav" aria-label="Основная навигация">
+    <a href="#about">Обо мне</a>
+    <a href="#services">Что делаю</a>
+    <a href="#works">Проекты</a>
+    <a href="#stack">Стек</a>
+  </nav>
+  <a class="topbar__cta" href="#contact">Обсудить<span aria-hidden="true">&#8599;</span></a>
+</header>
+
+<main>
+
+  <!-- ==================== ПЕРВЫЙ ЭКРАН ==================== -->
+  <section class="hero" id="top">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__grid" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="kicker rise" style="--d:.05s">
+          <span class="kicker__mark" aria-hidden="true"></span>
+          Vibe&nbsp;Coder <i>/</i> Portfolio <i>/</i> Web&nbsp;&&nbsp;AI&nbsp;Experiences
+        </p>
+
+        <h1 class="hero__title">
+          <span class="line">Я делаю сайты,</span>
+          <span class="line">интерфейсы и <span class="tint">digital-проекты</span>,</span>
+          <span class="line">которые выглядят как</span>
+          <span class="line"><em class="serif">вайб</em>, а работают</span>
+          <span class="line">как <span class="boxed">система</span></span>
+        </h1>
+
+        <div class="hero__bottom">
+          <p class="hero__lead rise" style="--d:.60s">
+            Не просто «что-то сверстать», а собрать ощущение, стиль, логику
+            и подачу так, чтобы проект хотелось открыть, листать и запомнить.
+          </p>
+
+          <div class="hero__actions rise" style="--d:.70s">
+            <a class="btn btn--solid" href="#works">
+              Посмотреть проекты
+              <span class="btn__arrow" aria-hidden="true">&#8594;</span>
+            </a>
+            <a class="btn btn--ghost" href="#contact">
+              Обсудить задачу
+              <span class="btn__arrow" aria-hidden="true">&#8594;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <figure class="hero__portrait rise" style="--d:.35s">
+        <div class="hero__portrait-frame">
+          <img
+            src="assets/portrait.jpg"
+            alt="Портрет — vibe coder за работой"
+            width="720"
+            height="900"
+            decoding="async"
+            fetchpriority="high"
+          >
+          <span class="hero__portrait-shade" aria-hidden="true"></span>
+        </div>
+        <figcaption class="hero__portrait-meta" aria-hidden="true">
+          <span>01</span>
+          <span>portrait / vibe</span>
+        </figcaption>
+        <span class="hero__portrait-corner hero__portrait-corner--tl" aria-hidden="true"></span>
+        <span class="hero__portrait-corner hero__portrait-corner--br" aria-hidden="true"></span>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ==================== ТИКЕР ==================== -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Лендинги <b>&#10022;</b> Портфолио <b>&#10022;</b> Промо-страницы <b>&#10022;</b> Интерфейсы <b>&#10022;</b> Спецпроекты <b>&#10022;</b> Digital-концепты <b>&#10022;</b> AI-first сайты <b>&#10022;</b></span>
+      <span>Лендинги <b>&#10022;</b> Портфолио <b>&#10022;</b> Промо-страницы <b>&#10022;</b> Интерфейсы <b>&#10022;</b> Спецпроекты <b>&#10022;</b> Digital-концепты <b>&#10022;</b> AI-first сайты <b>&#10022;</b></span>
+    </div>
+  </div>
+
+  <!-- ==================== ОБО МНЕ ==================== -->
+  <section class="section about" id="about">
+    <div class="wrap about__wrap">
+      <div class="about__head">
+        <p class="eyebrow reveal">
+          <span class="eyebrow__marker" aria-hidden="true"></span>
+          <span class="eyebrow__index">01</span>
+          <span class="eyebrow__sep">—</span>
+          <span class="eyebrow__text">Обо мне</span>
+        </p>
+        <h2 class="h2 reveal">
+          Я не просто пишу код —<br>
+          я собираю <em class="serif">впечатление</em>
+        </h2>
+      </div>
+
+      <div class="about__body">
+        <p class="p-lead reveal">
+          Я работаю на стыке кода, визуала, UX и AI-инструментов.
+        </p>
+        <p class="p reveal">
+          Для меня сайт — это не набор блоков. Это ощущение от проекта, ритм,
+          подача, структура и то, как человек чувствует себя внутри интерфейса.
+        </p>
+
+        <p class="micro reveal">Я делаю:</p>
+        <ul class="chips reveal">
+          <li>лендинги</li>
+          <li>портфолио</li>
+          <li>промо-страницы</li>
+          <li>интерфейсы</li>
+          <li>спецпроекты</li>
+          <li>digital-концепты</li>
+          <li>AI-first сайты и продукты</li>
+        </ul>
+
+        <p class="p p--accent reveal">
+          Мой подход — сделать быстро, красиво и не бездумно.
+          Чтобы проект не выглядел как очередной шаблон, собранный без вкуса и идеи.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ЧТО Я ДЕЛАЮ ==================== -->
+  <section class="section services" id="services">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow reveal">
+          <span class="eyebrow__marker" aria-hidden="true"></span>
+          <span class="eyebrow__index">02</span>
+          <span class="eyebrow__sep">—</span>
+          <span class="eyebrow__text">Что я умею</span>
+        </p>
+        <h2 class="h2 reveal">Что я делаю</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card__num">01</span>
+          <h3 class="card__title">Лендинги</h3>
+          <p class="card__text">Сайты, которые не просто «есть», а собирают внимание, держат ритм и ведут человека по смыслу.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card__num">02</span>
+          <h3 class="card__title">Портфолио и личные сайты</h3>
+          <p class="card__text">Страницы, которые показывают не только работы, но и стиль, характер и уровень.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card__num">03</span>
+          <h3 class="card__title">Визуальные концепты</h3>
+          <p class="card__text">Когда нужен не просто сайт, а ощущение: атмосфера, характер, настроение, подача.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card__num">04</span>
+          <h3 class="card__title">AI&nbsp;&#215;&nbsp;Web</h3>
+          <p class="card__text">Использую нейросети как инструмент ускорения и усиления идей, а не как замену мышлению.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card__num">05</span>
+          <h3 class="card__title">UX и структура</h3>
+          <p class="card__text">Продумываю, как человек читает, куда смотрит, где теряется и где принимает решение.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card__num">06</span>
+          <h3 class="card__title">Быстрый запуск</h3>
+          <p class="card__text">Могу собрать сильную первую версию быстро, без месяцев бесконечных согласований.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== МОЙ ПОДХОД ==================== -->
+  <section class="section approach" id="approach">
+    <div class="wrap">
+      <div class="sec-head sec-head--split">
+        <p class="eyebrow reveal">
+          <span class="eyebrow__marker" aria-hidden="true"></span>
+          <span class="eyebrow__index">03</span>
+          <span class="eyebrow__sep">—</span>
+          <span class="eyebrow__text">Мой подход</span>
+        </p>
+        <h2 class="h2 reveal">Как я работаю</h2>
+      </div>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__num" data-n="01" aria-hidden="true">01</span>
+          <div class="step__body">
+            <h3 class="step__title">Сначала вайб</h3>
+            <p class="p">Я смотрю не только на задачу, но и на ощущение, которое должен передавать проект.</p>
+          </div>
+        </li>
+        <li class="step reveal">
+          <span class="step__num" data-n="02" aria-hidden="true">02</span>
+          <div class="step__body">
+            <h3 class="step__title">Потом структура</h3>
+            <p class="p">Красивый сайт без логики — это просто красивая обёртка. Поэтому я собираю смысл, сценарий и путь пользователя.</p>
+          </div>
+        </li>
+        <li class="step reveal">
+          <span class="step__num" data-n="03" aria-hidden="true">03</span>
+          <div class="step__body">
+            <h3 class="step__title">Потом реализация</h3>
+            <p class="p">Когда есть стиль и логика, проект собирается быстрее, точнее и выглядит сильно.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ==================== ПРОЕКТЫ ==================== -->
+  <section class="section works" id="works">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow reveal">
+          <span class="eyebrow__marker" aria-hidden="true"></span>
+          <span class="eyebrow__index">04</span>
+          <span class="eyebrow__sep">—</span>
+          <span class="eyebrow__text">Проекты</span>
+        </p>
+        <h2 class="h2 reveal">Избранные <em class="serif">проекты</em></h2>
+      </div>
+
+      <div class="works__list">
+        <article class="work reveal">
+          <span class="work__index">01</span>
+          <div class="work__main">
+            <h3 class="work__title">AI Landing Experience</h3>
+            <p class="work__desc">Лендинг для digital-продукта с акцентом на атмосферу, скорость восприятия и современный визуал.</p>
+          </div>
+          <p class="work__meta"><span>Что сделано:</span> структура, тексты, дизайн-концепция, сборка.</p>
+          <span class="work__go" aria-hidden="true">&#8599;</span>
+        </article>
+
+        <article class="work reveal">
+          <span class="work__index">02</span>
+          <div class="work__main">
+            <h3 class="work__title">Portfolio for Creative Expert</h3>
+            <p class="work__desc">Личный сайт-портфолио, который показывает не только кейсы, но и стиль человека.</p>
+          </div>
+          <p class="work__meta"><span>Что сделано:</span> позиционирование, подача, визуальный ритм, упаковка работ.</p>
+          <span class="work__go" aria-hidden="true">&#8599;</span>
+        </article>
+
+        <article class="work reveal">
+          <span class="work__index">03</span>
+          <div class="work__main">
+            <h3 class="work__title">Bot &amp; Funnel Page</h3>
+            <p class="work__desc">Промо-страница под воронку и digital-продукт с акцентом на конверсию и лёгкость восприятия.</p>
+          </div>
+          <p class="work__meta"><span>Что сделано:</span> логика блоков, тексты, CTA, визуальный каркас.</p>
+          <span class="work__go" aria-hidden="true">&#8599;</span>
+        </article>
+
+        <article class="work reveal">
+          <span class="work__index">04</span>
+          <div class="work__main">
+            <h3 class="work__title">Concept Site for AI Creator</h3>
+            <p class="work__desc">Сайт с упором на трендовую подачу, сильный первый экран и ощущение «это хочется переслать».</p>
+          </div>
+          <p class="work__meta"><span>Что сделано:</span> creative direction, структура, визуальная концепция.</p>
+          <span class="work__go" aria-hidden="true">&#8599;</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ПОЧЕМУ СО МНОЙ ==================== -->
+  <section class="section why" id="why">
+    <div class="wrap why__wrap">
+      <div class="why__left">
+        <p class="eyebrow reveal">
+          <span class="eyebrow__marker" aria-hidden="true"></span>
+          <span class="eyebrow__index">05</span>
+          <span class="eyebrow__sep">—</span>
+          <span class="eyebrow__text">Почему со мной</span>
+        </p>
+        <h2 class="h2 reveal">Почему ко мне идут<br>не просто <em class="serif">за кодом</em></h2>
+        <p class="p-lead reveal">Потому что я умею видеть проект целиком.</p>
+      </div>
+
+      <div class="why__right">
+        <div class="why__col reveal">
+          <p class="micro">Не только:</p>
+          <ul class="dash dash--muted">
+            <li>как это собрать</li>
+          </ul>
+        </div>
+
+        <div class="why__col reveal">
+          <p class="micro">Но и:</p>
+          <ul class="dash">
+            <li>как это подать</li>
+            <li>как это будет восприниматься</li>
+            <li>где человек зацепится взглядом</li>
+            <li>что запомнит</li>
+            <li>почему это будет выглядеть дороже, чем стоит</li>
+          </ul>
+        </div>
+
+        <p class="formula reveal">
+          <span>эстетика</span><i>+</i><span>структура</span><i>+</i><span>digital-мышление</span><i>+</i><span>скорость</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ОТЗЫВЫ ==================== -->
+  <section class="section reviews" id="reviews">
+    <div class="wrap reviews__wrap">
+      <div class="reviews__head">
+        <p class="eyebrow reveal">
+          <span class="eyebrow__marker" aria-hidden="true"></span>
+          <span class="eyebrow__index">06</span>
+          <span class="eyebrow__sep">—</span>
+          <span class="eyebrow__text">Отзывы</span>
+        </p>
+        <h2 class="h2 reveal">Что говорят<br>после <em class="serif">запуска</em></h2>
+        <p class="p-lead reveal">Не про «красиво сверстали», а про ощущение, скорость и результат.</p>
+      </div>
+
+      <div class="reviews__stage reveal" aria-label="Лента отзывов">
+        <div class="reviews__cols">
+          <!-- Column 1 -->
+          <div class="vmarquee vmarquee--a" style="--dur: 38s">
+            <div class="vmarquee__track">
+              <article class="review">
+                <header class="review__who">
+                  <span class="review__avatar" aria-hidden="true">АМ</span>
+                  <span>
+                    <span class="review__name">Анна Морозова</span>
+                    <span class="review__role">эксперт / личный бренд</span>
+                  </span>
+                </header>
+                <p class="review__body">«Сайт наконец ощущается как я — не шаблон, а характер. Первый экран цепляет, а дальше человек не теряется.»</p>
+              </article>
+              <article class="review">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--acid" aria-hidden="true">ДК</span>
+                  <span>
+                    <span class="review__name">Денис Кравцов</span>
+                    <span class="review__role">AI-продукт</span>
+                  </span>
+                </header>
+                <p class="review__body">«Нужна была сильная подача за короткий срок. Собрали вайб, структуру и рабочую страницу без бесконечных кругов.»</p>
+              </article>
+              <article class="review">
+                <header class="review__who">
+                  <span class="review__avatar" aria-hidden="true">ЕС</span>
+                  <span>
+                    <span class="review__name">Елена Соколова</span>
+                    <span class="review__role">креатор</span>
+                  </span>
+                </header>
+                <p class="review__body">«Портфолио стало выглядеть дороже, чем стоило. Люди пишут именно после того, как открывают сайт.»</p>
+              </article>
+              <!-- duplicate for seamless loop -->
+              <article class="review" aria-hidden="true">
+                <header class="review__who">
+                  <span class="review__avatar" aria-hidden="true">АМ</span>
+                  <span>
+                    <span class="review__name">Анна Морозова</span>
+                    <span class="review__role">эксперт / личный бренд</span>
+                  </span>
+                </header>
+                <p class="review__body">«Сайт наконец ощущается как я — не шаблон, а характер. Первый экран цепляет, а дальше человек не теряется.»</p>
+              </article>
+              <article class="review" aria-hidden="true">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--acid" aria-hidden="true">ДК</span>
+                  <span>
+                    <span class="review__name">Денис Кравцов</span>
+                    <span class="review__role">AI-продукт</span>
+                  </span>
+                </header>
+                <p class="review__body">«Нужна была сильная подача за короткий срок. Собрали вайб, структуру и рабочую страницу без бесконечных кругов.»</p>
+              </article>
+              <article class="review" aria-hidden="true">
+                <header class="review__who">
+                  <span class="review__avatar" aria-hidden="true">ЕС</span>
+                  <span>
+                    <span class="review__name">Елена Соколова</span>
+                    <span class="review__role">креатор</span>
+                  </span>
+                </header>
+                <p class="review__body">«Портфолио стало выглядеть дороже, чем стоило. Люди пишут именно после того, как открывают сайт.»</p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Column 2 (reverse) -->
+          <div class="vmarquee vmarquee--b vmarquee--reverse" style="--dur: 44s">
+            <div class="vmarquee__track">
+              <article class="review">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--paper" aria-hidden="true">ИВ</span>
+                  <span>
+                    <span class="review__name">Игорь Волков</span>
+                    <span class="review__role">студия</span>
+                  </span>
+                </header>
+                <p class="review__body">«Закрыли промо-страницу под воронку: ясная логика блоков, сильные CTA и визуал без шума. Конверсия выросла уже в первую неделю.»</p>
+              </article>
+              <article class="review">
+                <header class="review__who">
+                  <span class="review__avatar" aria-hidden="true">МК</span>
+                  <span>
+                    <span class="review__name">Мария Кузнецова</span>
+                    <span class="review__role">digital-проект</span>
+                  </span>
+                </header>
+                <p class="review__body">«Чувствуется вкус и структура одновременно. Не “ещё один лендинг”, а страница, которую хочется листать и пересылать.»</p>
+              </article>
+              <article class="review">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--acid" aria-hidden="true">ПО</span>
+                  <span>
+                    <span class="review__name">Павел Орлов</span>
+                    <span class="review__role">основатель</span>
+                  </span>
+                </header>
+                <p class="review__body">«От первого вайба до готовой версии — быстро и без хаоса. Получили цельное впечатление, а не набор блоков.»</p>
+              </article>
+              <article class="review" aria-hidden="true">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--paper" aria-hidden="true">ИВ</span>
+                  <span>
+                    <span class="review__name">Игорь Волков</span>
+                    <span class="review__role">студия</span>
+                  </span>
+                </header>
+                <p class="review__body">«Закрыли промо-страницу под воронку: ясная логика блоков, сильные CTA и визуал без шума. Конверсия выросла уже в первую неделю.»</p>
+              </article>
+              <article class="review" aria-hidden="true">
+                <header class="review__who">
+                  <span class="review__avatar" aria-hidden="true">МК</span>
+                  <span>
+                    <span class="review__name">Мария Кузнецова</span>
+                    <span class="review__role">digital-проект</span>
+                  </span>
+                </header>
+                <p class="review__body">«Чувствуется вкус и структура одновременно. Не “ещё один лендинг”, а страница, которую хочется листать и пересылать.»</p>
+              </article>
+              <article class="review" aria-hidden="true">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--acid" aria-hidden="true">ПО</span>
+                  <span>
+                    <span class="review__name">Павел Орлов</span>
+                    <span class="review__role">основатель</span>
+                  </span>
+                </header>
+                <p class="review__body">«От первого вайба до готовой версии — быстро и без хаоса. Получили цельное впечатление, а не набор блоков.»</p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="vmarquee vmarquee--c" style="--dur: 40s">
+            <div class="vmarquee__track">
+              <article class="review">
+                <header class="review__who">
+                  <span class="review__avatar" aria-hidden="true">НЛ</span>
+                  <span>
+                    <span class="review__name">Ника Лебедева</span>
+                    <span class="review__role">коуч</span>
+                  </span>
+                </header>
+                <p class="review__body">«Сайт стал частью позиционирования. Тексты, ритм и визуал собраны так, что клиент сразу понимает уровень.»</p>
+              </article>
+              <article class="review">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--paper" aria-hidden="true">АР</span>
+                  <span>
+                    <span class="review__name">Артём Родин</span>
+                    <span class="review__role">продукт / Telegram</span>
+                  </span>
+                </header>
+                <p class="review__body">«Нужна была страница под бота и воронку. Получили лёгкую подачу, понятный сценарий и современный визуальный каркас.»</p>
+              </article>
+              <article class="review">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--acid" aria-hidden="true">СБ</span>
+                  <span>
+                    <span class="review__name">София Белова</span>
+                    <span class="review__role">дизайнер</span>
+                  </span>
+                </header>
+                <p class="review__body">«Редко бывает, когда и вкус, и система на месте. Здесь оба — и сайт ощущается живым.»</p>
+              </article>
+              <article class="review" aria-hidden="true">
+                <header class="review__who">
+                  <span class="review__avatar" aria-hidden="true">НЛ</span>
+                  <span>
+                    <span class="review__name">Ника Лебедева</span>
+                    <span class="review__role">коуч</span>
+                  </span>
+                </header>
+                <p class="review__body">«Сайт стал частью позиционирования. Тексты, ритм и визуал собраны так, что клиент сразу понимает уровень.»</p>
+              </article>
+              <article class="review" aria-hidden="true">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--paper" aria-hidden="true">АР</span>
+                  <span>
+                    <span class="review__name">Артём Родин</span>
+                    <span class="review__role">продукт / Telegram</span>
+                  </span>
+                </header>
+                <p class="review__body">«Нужна была страница под бота и воронку. Получили лёгкую подачу, понятный сценарий и современный визуальный каркас.»</p>
+              </article>
+              <article class="review" aria-hidden="true">
+                <header class="review__who">
+                  <span class="review__avatar review__avatar--acid" aria-hidden="true">СБ</span>
+                  <span>
+                    <span class="review__name">София Белова</span>
+                    <span class="review__role">дизайнер</span>
+                  </span>
+                </header>
+                <p class="review__body">«Редко бывает, когда и вкус, и система на месте. Здесь оба — и сайт ощущается живым.»</p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews__fade reviews__fade--top" aria-hidden="true"></div>
+        <div class="reviews__fade reviews__fade--bot" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== СТЕК ==================== -->
+  <section class="section stack" id="stack">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow reveal">
+          <span class="eyebrow__marker" aria-hidden="true"></span>
+          <span class="eyebrow__index">07</span>
+          <span class="eyebrow__sep">—</span>
+          <span class="eyebrow__text">Стек</span>
+        </p>
+        <h2 class="h2 reveal">Инструменты</h2>
+      </div>
+
+      <ul class="badges reveal">
+        <li>ChatGPT</li>
+        <li>Cursor</li>
+        <li>HTML / CSS / JS</li>
+        <li>React</li>
+        <li>Tailwind</li>
+        <li>Framer Motion</li>
+        <li>Figma</li>
+        <li>Tilda / Webflow / custom</li>
+        <li>Telegram / Bots / AI tools</li>
+      </ul>
+
+      <p class="note reveal">
+        Но если честно — главный инструмент не стек, а <em class="serif">вкус</em>,
+        насмотренность и умение собирать цельное впечатление.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== ДЛЯ КОГО ==================== -->
+  <section class="section audience" id="audience">
+    <div class="wrap audience__wrap">
+      <div class="sec-head sec-head--tight">
+        <p class="eyebrow reveal">
+          <span class="eyebrow__marker" aria-hidden="true"></span>
+          <span class="eyebrow__index">08</span>
+          <span class="eyebrow__sep">—</span>
+          <span class="eyebrow__text">Для кого</span>
+        </p>
+        <h2 class="h2 reveal">Кому подойдёт<br>моя работа</h2>
+      </div>
+
+      <ul class="rows">
+        <li class="reveal"><span>экспертам</span></li>
+        <li class="reveal"><span>креаторам</span></li>
+        <li class="reveal"><span>digital-проектам</span></li>
+        <li class="reveal"><span>AI-продуктам</span></li>
+        <li class="reveal"><span>студиям</span></li>
+        <li class="reveal"><span>тем, кому нужен сайт с характером</span></li>
+        <li class="reveal"><span>тем, кто не хочет шаблонную безликую страницу</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ==================== МАНИФЕСТ ==================== -->
+  <section class="manifesto">
+    <div class="manifesto__glow" aria-hidden="true"></div>
+    <blockquote class="wrap manifesto__quote reveal">
+      <span class="manifesto__mark" aria-hidden="true">&#8220;</span>
+      Хороший сайт — это не когда «нормально сверстано».
+      Это когда у проекта появляется <em class="serif">энергия</em>, форма
+      и ощущение, что он <span class="tint">живой</span>.
+    </blockquote>
+  </section>
+
+  <!-- ==================== ФИНАЛЬНЫЙ CTA ==================== -->
+  <section class="section cta" id="cta">
+    <div class="wrap cta__wrap">
+      <h2 class="cta__title reveal">
+        Если тебе нужен сайт, который выглядит сильно
+        и ощущается современно — <em class="serif">давай соберём</em>
+      </h2>
+      <p class="p-lead reveal">
+        Могу помочь с концепцией, структурой, упаковкой и реализацией.
+        От первого вайба до готовой страницы.
+      </p>
+      <div class="hero__actions reveal">
+        <a class="btn btn--solid" href="#contact">Написать мне <span class="btn__arrow" aria-hidden="true">&#8594;</span></a>
+        <a class="btn btn--ghost" href="#works">Посмотреть работы <span class="btn__arrow" aria-hidden="true">&#8594;</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== КОНТАКТЫ ==================== -->
+  <footer class="footer" id="contact">
+    <div class="wrap footer__wrap">
+      <div class="footer__head">
+        <p class="eyebrow">
+          <span class="eyebrow__marker" aria-hidden="true"></span>
+          <span class="eyebrow__index">09</span>
+          <span class="eyebrow__sep">—</span>
+          <span class="eyebrow__text">Контакты</span>
+        </p>
+        <p class="footer__big">Давай<br>соберём<br><em class="serif">вайб</em></p>
+      </div>
+
+      <div class="footer__contacts">
+        <a class="contact-line" href="https://t.me/yourname">
+          <span class="contact-line__label">Telegram</span>
+          <span class="contact-line__value">@yourname</span>
+          <span class="contact-line__go" aria-hidden="true">&#8599;</span>
+        </a>
+        <a class="contact-line" href="mailto:hello@yourmail.com">
+          <span class="contact-line__label">Email</span>
+          <span class="contact-line__value">hello@yourmail.com</span>
+          <span class="contact-line__go" aria-hidden="true">&#8599;</span>
+        </a>
+
+        <ul class="socials">
+          <li><a href="#">Behance</a></li>
+          <li><a href="#">Dribbble</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Notion</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__base">
+        <span>&#169; 2026 Vibe Coder</span>
+        <span>Web &amp; AI Experiences</span>
+        <a href="#top">Наверх <span aria-hidden="true">&#8593;</span></a>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="js/main.js?v=4"></script>
+
+</body>
+</html>
